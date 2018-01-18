@@ -17,3 +17,6 @@ def pi(precision):
          Decimal(1)/(8*k+5) -
          Decimal(1)/(8*k+6)) for k in range (precision))
 print(pi(10))
+
+### 'precision' allows the user to determine how many digits of pi will be calculated. 
+###  input this number into your 'print' statement
